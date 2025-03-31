@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FullPipelineCPU.srcs/sources_1/ip/RAM_B/sim/RAM_B.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/ip/ROM_D/sim/ROM_D.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/IO/Counter_3_IO.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/EXT.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/IO/Enter.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/Forwarding_unit.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/GRE_array.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/Hazard_detecction_unit.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/edf_file_new/MIO_BUS.V" \
+"../../../../FullPipelineCPU.srcs/sources_1/edf_file_new/Multi_8CH32.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/NPC.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/PC.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/PCPU.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/RF.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/edf_file_new/SPIO.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/edf_file_new/SSeg7.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/Top.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/alu.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/IO/clk_div.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/new/ctrl.v" \
+"../../../../FullPipelineCPU.srcs/sources_1/dm_controller.v" \
+"../../../../../FullSingleCPU/FullSingleCPU/FullSingleCPU.srcs/sources_1/new/Test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
