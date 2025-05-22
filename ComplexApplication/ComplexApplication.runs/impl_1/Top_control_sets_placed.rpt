@@ -1,0 +1,131 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri May 23 01:44:03 2025
+| Host         : mowang-001 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    59 |
+| Unused register locations in slices containing registers |    77 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      3 |            1 |
+|      4 |            1 |
+|      8 |            2 |
+|     10 |            1 |
+|     11 |            1 |
+|     14 |            2 |
+|    16+ |           48 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             220 |          121 |
+| No           | No                    | Yes                    |             869 |          252 |
+| No           | Yes                   | No                     |              65 |           19 |
+| Yes          | No                    | No                     |               8 |            5 |
+| Yes          | No                    | Yes                    |            1257 |          555 |
+| Yes          | Yes                   | No                     |               8 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+----------------------------------------+--------------------------------+------------------+----------------+
+|        Clock Signal       |              Enable Signal             |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++---------------------------+----------------------------------------+--------------------------------+------------------+----------------+
+|  n_0_2192_BUFG            |                                        |                                |                1 |              1 |
+|  clk0_BUFG                |                                        |                                |                1 |              1 |
+|  clk0_BUFG                |                                        | U1_PCPU/U_RF/rstn              |                2 |              2 |
+|  p_0_in                   |                                        |                                |                3 |              3 |
+|  U6_SSeg7/flash_IBUF_BUFG |                                        |                                |                3 |              4 |
+|  U6_SSeg7/flash_IBUF_BUFG | U6_SSeg7/seg_sout[7]_i_1_n_0           |                                |                5 |              8 |
+|  clk_IBUF_BUFG            | pwm_audio_100m_inst/latch_flag_reg_n_7 | U1_PCPU/U_RF/rstn              |                1 |              8 |
+|  p_0_in                   | U12_VGAIO/VScans/VCount                | U1_PCPU/U_RF/rstn              |                6 |             10 |
+|  p_0_in                   |                                        | U12_VGAIO/VScans/HActive_reg_0 |                4 |             11 |
+| ~clk_IBUF_BUFG            |                                        |                                |                5 |             14 |
+|  p_0_in                   |                                        | U1_PCPU/U_RF/rstn              |                8 |             14 |
+|  clk_IBUF_BUFG            | audio_controller_inst/addr_counter     | U1_PCPU/U_RF/rstn              |                5 |             17 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_29[0]       | U1_PCPU/U_RF/rstn              |               12 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_5[0]        | U1_PCPU/U_RF/rstn              |               22 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_26[0]       | U1_PCPU/U_RF/rstn              |               15 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_3[0]        | U1_PCPU/U_RF/rstn              |               17 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_1[0]        | U1_PCPU/U_RF/rstn              |               14 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_23[0]       | U1_PCPU/U_RF/rstn              |               12 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_18[0]       | U1_PCPU/U_RF/rstn              |               11 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_2[0]        | U1_PCPU/U_RF/rstn              |               17 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_16[0]       | U1_PCPU/U_RF/rstn              |                8 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_7[0]        | U1_PCPU/U_RF/rstn              |               11 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_9[0]        | U1_PCPU/U_RF/rstn              |               14 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_24[0]       | U1_PCPU/U_RF/rstn              |               13 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_13[0]       | U1_PCPU/U_RF/rstn              |               10 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_10[0]       | U1_PCPU/U_RF/rstn              |               15 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_12[0]       | U1_PCPU/U_RF/rstn              |               13 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_19[0]       | U1_PCPU/U_RF/rstn              |               15 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_8[0]        | U1_PCPU/U_RF/rstn              |               13 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_27[0]       | U1_PCPU/U_RF/rstn              |               13 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_4[0]        | U1_PCPU/U_RF/rstn              |               23 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_11[0]       | U1_PCPU/U_RF/rstn              |               18 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_6[0]        | U1_PCPU/U_RF/rstn              |               26 |             32 |
+|  n_6_2894_BUFG            |                                        |                                |               17 |             32 |
+|  n_3_1943_BUFG            |                                        |                                |               14 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/E[0]                    | U1_PCPU/U_RF/rstn              |               17 |             32 |
+|  n_0_2192_BUFG            | U1_PCPU/EX_MEM/EN                      | U1_PCPU/U_RF/rstn              |                9 |             32 |
+|  n_0_2192_BUFG            | U1_PCPU/EX_MEM/E[0]                    | U1_PCPU/U_RF/rstn              |               11 |             32 |
+|  n_4_1476_BUFG            |                                        |                                |               21 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_14[0]       | U1_PCPU/U_RF/rstn              |               13 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_15[0]       | U1_PCPU/U_RF/rstn              |               18 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_20[0]       | U1_PCPU/U_RF/rstn              |               13 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_0[0]        | U1_PCPU/U_RF/rstn              |               12 |             32 |
+|  n_2_1985_BUFG            |                                        |                                |               13 |             32 |
+|  n_5_1944_BUFG            |                                        |                                |               15 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_21[0]       | U1_PCPU/U_RF/rstn              |               12 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_22[0]       | U1_PCPU/U_RF/rstn              |               10 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_25[0]       | U1_PCPU/U_RF/rstn              |               14 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_17[0]       | U1_PCPU/U_RF/rstn              |               25 |             32 |
+|  Clk_CPU_BUFG             | U1_PCPU/MEM_WB/out_reg[33]_28[0]       | U1_PCPU/U_RF/rstn              |               14 |             32 |
+|  clk0_BUFG                | U9_Counter_x/counter0[31]              | U1_PCPU/U_RF/rstn              |               17 |             32 |
+|  n_0_2192_BUFG            | U1_PCPU/EX_MEM/out_reg[63]_1           | U1_PCPU/U_RF/rstn              |               14 |             34 |
+|  n_1_2895_BUFG            |                                        | U1_PCPU/EX_MEM/AR[0]           |               10 |             36 |
+|  clk_IBUF_BUFG            |                                        |                                |               28 |             37 |
+| ~Clk_CPU_BUFG             | U1_PCPU/ID_EX/out[63]_i_4__0_0         | U1_PCPU/U_RF/rstn              |               33 |            108 |
+|  clk_IBUF_BUFG            |                                        | U1_PCPU/U_RF/rstn              |               34 |            114 |
+| ~clk_IBUF_BUFG            |                                        | U1_PCPU/U_RF/rstn              |               35 |            144 |
+|  n_0_2192_BUFG            |                                        | U1_PCPU/U_RF/rstn              |               63 |            240 |
+| ~Clk_CPU_BUFG             |                                        | U1_PCPU/U_RF/rstn              |              115 |            373 |
++---------------------------+----------------------------------------+--------------------------------+------------------+----------------+
+
+
