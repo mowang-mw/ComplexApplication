@@ -15,11 +15,13 @@ reg        latch_flag;          // 锁存使能标志位
 
 // 放大后的音频数据，中间用9位防止溢出
 wire [8:0] audio_amplified;
+wire [8:0] audio_amplified_2;
 wire [7:0] audio_amplified_clamped;
 
 // 放大1.5倍，防止溢出做限制
-assign audio_amplified = audio_data * 3 / 2;
-assign audio_amplified_clamped = (audio_amplified > 255) ? 8'd255 : audio_amplified[7:0];
+assign audio_amplified = {audio_data, 1'b0} + audio_data; // 等效*3
+assign audio_amplified_2 = audio_amplified[8:1];    // 等效/2
+assign audio_amplified_clamped = (audio_amplified_2 > 255) ? 8'd255 : audio_amplified_2[7:0];
 
 // 初始块仅在仿真时有效，给寄存器初值
 initial begin

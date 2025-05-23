@@ -432,20 +432,41 @@ module Top(
     wire [7:0] audio_data;
     wire audio_valid;
     wire aud_pwm;
+    
+    // 内部信号声明
+    wire [7:0] rom_audio_data;
+    wire [7:0] tone_audio_data;
+    wire [7:0] selected_audio;
+    wire [1:0] sample_phase;
 
-    // audio_controller 实例化
-    audio_controller audio_controller_inst (
-    .clk(clk),            // 100MHz 主时钟
-    .reset(~rstn),        // 低有效复位，顶层复位是 rstn
-    .audio_data(audio_data),
-    .audio_valid(audio_valid)
+    // 实例化音频控制器
+    audio_controller audio_ctrl (
+        .clk(clk),
+        .reset(~rstn),
+        .audio_data(rom_audio_data),
+        .audio_valid(audio_valid),
+        .sample_phase(sample_phase)
     );
 
-    // pwm_audio_100m 实例化
-    pwm_audio_100m pwm_audio_100m_inst (
-    .clk_100m(clk),       // 100MHz 主时钟
+    // 实例化音调生成器
+    tone_generator tone_gen (
+    .clk(clk),
     .reset(~rstn),
-    .audio_data(audio_data),
+    .buttons(btn_i),
+    .switches(sw_i[14:9]),
+    .sample_phase(sample_phase), // 连接相位信号
+    .tone_data(tone_audio_data),
+    .tone_valid()
+    );
+
+    // 音频源选择器
+    assign selected_audio = sw_i[15] ? tone_audio_data : rom_audio_data;
+
+    // 实例化PWM音频输出
+    pwm_audio_100m pwm_output (
+    .clk_100m(clk),
+    .reset(~rstn),
+    .audio_data(selected_audio),
     .aud_pwm(aud_pwm)
     );
 

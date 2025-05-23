@@ -2,7 +2,8 @@ module audio_controller (
     input wire clk,
     input wire reset,
     output wire [7:0] audio_data,
-    output reg audio_valid
+    output reg audio_valid,
+    output reg [1:0] sample_phase
 );
 
 parameter CLK_FREQ = 100_000_000;  // 100MHz主时钟
@@ -12,7 +13,6 @@ localparam DIVIDER = CLK_FREQ / (SAMPLE_RATE * SAMPLES_PER_WORD);  // 3125
 
 reg [$clog2(DIVIDER)-1:0] div_counter;
 reg [17:0] addr_counter;
-reg [1:0] sample_phase;
 
 // ROM接口信号
 wire [31:0] rom_data;

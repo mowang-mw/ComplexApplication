@@ -50,13 +50,15 @@ add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplicat
 add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/test0_define_hanshu_anniu_jia.coe
 add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/wu.coe
 add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/you1.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/migong_4.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/gaidizhi.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/ceshuzu.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yiweishuzu.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yiweishuzu2.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yiweishuzu3.coe
-add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/ceshishuzu4.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/migong_4.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/gaidizhi.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/ceshuzu.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yiweishuzu.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yiweishuzu2.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yiweishuzu3.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/ceshishuzu4.coe
+add_files D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/xianshisuoyouditu.coe
+add_files d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/yaochenggongl.coe
 read_verilog -library xil_defaultlib {
   D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/IO/Counter_3_IO.v
   D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/PCPU/ctrl_encode_def.v
@@ -83,6 +85,7 @@ read_verilog -library xil_defaultlib {
   D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/PCPU/ctrl.v
   D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/dm_controller.v
   D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/pwm_audio_100m.v
+  D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v
   D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v
 }
 read_ip -quiet D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/RAM_B/RAM_B.xci

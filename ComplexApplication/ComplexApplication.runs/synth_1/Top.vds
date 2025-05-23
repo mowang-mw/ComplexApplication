@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri May 23 01:41:34 2025
-# Process ID: 39828
+# Start of session at: Fri May 23 14:15:58 2025
+# Process ID: 25972
 # Current directory: D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1
 # Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
 # Log file: D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/Top.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 43528 
+INFO: Helper process launched with PID 16532 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 396.297 ; gain = 103.605
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 396.234 ; gain = 103.371
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Top' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:23]
 INFO: [Synth 8-6157] synthesizing module 'PCPU' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/PCPU/PCPU.v:4]
@@ -48,12 +48,12 @@ INFO: [Synth 8-6155] done synthesizing module 'EXT' (9#1) [D:/mowang/2025_1/Comp
 INFO: [Synth 8-155] case statement is not full and has no default [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/PCPU/PCPU.v:323]
 WARNING: [Synth 8-3848] Net CPU_MIO in module/entity PCPU does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/PCPU/PCPU.v:18]
 INFO: [Synth 8-6155] done synthesizing module 'PCPU' (10#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/PCPU/PCPU.v:4]
-INFO: [Synth 8-6157] synthesizing module 'ROM_D' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/ROM_D_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ROM_D' (11#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/ROM_D_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ROM_D' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/ROM_D_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_D' (11#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/ROM_D_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'dm_controller' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/dm_controller.v:27]
 INFO: [Synth 8-6155] done synthesizing module 'dm_controller' (12#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/dm_controller.v:27]
-INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/RAM_B_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'RAM_B' (13#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_B' (13#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/RAM_B_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/MIO_BUS.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'MIO_BUS' (14#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/MIO_BUS.v:1]
 WARNING: [Synth 8-689] width (10) of port connection 'ram_addr' does not match port width (11) of module 'MIO_BUS' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:285]
@@ -75,8 +75,8 @@ WARNING: [Synth 8-3848] Net counter2 in module/entity Counter_x does not have dr
 INFO: [Synth 8-6155] done synthesizing module 'Counter_x' (16#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/IO/Counter_3_IO.v:21]
 INFO: [Synth 8-6157] synthesizing module 'Enter' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/IO/Enter.v:21]
 INFO: [Synth 8-6155] done synthesizing module 'Enter' (17#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/IO/Enter.v:21]
-INFO: [Synth 8-6157] synthesizing module 'VGARAM' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/VGARAM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'VGARAM' (18#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/VGARAM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'VGARAM' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/VGARAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VGARAM' (18#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/VGARAM_stub.v:6]
 WARNING: [Synth 8-689] width (32) of port connection 'addra' does not match port width (17) of module 'VGARAM' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:378]
 INFO: [Synth 8-6157] synthesizing module 'VGAIO' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/VGA/VGAIO.v:1]
 INFO: [Synth 8-6157] synthesizing module 'VGA_Scan' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/VGA/VGA_Scan.v:21]
@@ -98,29 +98,135 @@ INFO: [Synth 8-6157] synthesizing module 'audio_controller' [D:/mowang/2025_1/Co
 	Parameter SAMPLE_RATE bound to: 8000 - type: integer 
 	Parameter SAMPLES_PER_WORD bound to: 4 - type: integer 
 	Parameter DIVIDER bound to: 3125 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (21#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (21#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/realtime/blk_mem_gen_0_stub.v:6]
 WARNING: [Synth 8-689] width (18) of port connection 'addra' does not match port width (17) of module 'blk_mem_gen_0' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/audio_controller.v:21]
 WARNING: [Synth 8-350] instance 'PWM' of module 'blk_mem_gen_0' requires 5 connections, but only 4 given [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/audio_controller.v:20]
 INFO: [Synth 8-6155] done synthesizing module 'audio_controller' (22#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/audio_controller.v:1]
+INFO: [Synth 8-6157] synthesizing module 'tone_generator' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:1]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter SAMPLE_RATE bound to: 8000 - type: integer 
+	Parameter DO_FREQ bound to: 11237 - type: integer 
+	Parameter RE_FREQ bound to: 12613 - type: integer 
+	Parameter MI_FREQ bound to: 14158 - type: integer 
+	Parameter FA_FREQ bound to: 14999 - type: integer 
+	Parameter SO_FREQ bound to: 16836 - type: integer 
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'sine_table.mif'; please make sure the file is added to project and has read permission, ignoring [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:30]
+WARNING: [Synth 8-6014] Unused sequential element addr0_reg was removed.  [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:55]
+WARNING: [Synth 8-6014] Unused sequential element addr1_reg was removed.  [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:56]
+WARNING: [Synth 8-6014] Unused sequential element addr2_reg was removed.  [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:57]
+WARNING: [Synth 8-6014] Unused sequential element addr3_reg was removed.  [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:58]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+WARNING: [Synth 8-3848] Net sine_table in module/entity tone_generator does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:28]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'tone_generator' (23#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/tone_generator.v:1]
 INFO: [Synth 8-6157] synthesizing module 'pwm_audio_100m' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/pwm_audio_100m.v:1]
 	Parameter CLK_FREQ bound to: 100000000 - type: integer 
 	Parameter PWM_FREQ bound to: 200000 - type: integer 
 	Parameter PWM_MAX bound to: 499 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'pwm_audio_100m' (23#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/pwm_audio_100m.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pwm_audio_100m' (24#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/pwm_audio_100m.v:1]
 INFO: [Synth 8-6157] synthesizing module 'VRAMS_Controller' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/VRAMS_Controller.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'VRAMS_Controller' (24#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/VRAMS_Controller.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'VRAMS_Controller' (25#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/VRAMS_Controller.v:1]
 INFO: [Synth 8-6157] synthesizing module 'Pixel_control' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/Pixel_control.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'Pixel_control' (25#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/Pixel_control.v:1]
-WARNING: [Synth 8-3848] Net disp_an_o in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:28]
-WARNING: [Synth 8-3848] Net disp_seg_o in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:29]
-WARNING: [Synth 8-3848] Net led_o in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:30]
-WARNING: [Synth 8-3848] Net dina_VGA in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:374]
-WARNING: [Synth 8-3848] Net PC in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:71]
-WARNING: [Synth 8-3848] Net Cpu_data2bus in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:72]
-WARNING: [Synth 8-3848] Net counter_val in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:132]
-WARNING: [Synth 8-3848] Net counter_ch in module/entity Top does not have driver. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'Top' (26#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pixel_control' (26#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/new/Pixel_control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (27#1) [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/Top.v:23]
 WARNING: [Synth 8-3331] design Pixel_control has unconnected port douta_VGA[15]
 WARNING: [Synth 8-3331] design Pixel_control has unconnected port douta_VGA[14]
 WARNING: [Synth 8-3331] design Pixel_control has unconnected port douta_VGA[13]
@@ -152,6 +258,12 @@ WARNING: [Synth 8-3331] design Pixel_control has unconnected port VRAMS_out[6]
 WARNING: [Synth 8-3331] design Pixel_control has unconnected port VRAMS_out[5]
 WARNING: [Synth 8-3331] design Pixel_control has unconnected port VRAMS_out[4]
 WARNING: [Synth 8-3331] design Pixel_control has unconnected port VRAMS_out[3]
+WARNING: [Synth 8-3331] design tone_generator has unconnected port switches[5]
+WARNING: [Synth 8-3331] design tone_generator has unconnected port switches[4]
+WARNING: [Synth 8-3331] design tone_generator has unconnected port switches[3]
+WARNING: [Synth 8-3331] design tone_generator has unconnected port switches[2]
+WARNING: [Synth 8-3331] design tone_generator has unconnected port switches[1]
+WARNING: [Synth 8-3331] design tone_generator has unconnected port switches[0]
 WARNING: [Synth 8-3331] design VGAIO has unconnected port VRAMA[12]
 WARNING: [Synth 8-3331] design VGAIO has unconnected port VRAMA[11]
 WARNING: [Synth 8-3331] design VGAIO has unconnected port VRAMA[10]
@@ -215,15 +327,9 @@ WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[21]
 WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[20]
 WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[19]
 WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[18]
-WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[17]
-WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[16]
-WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[15]
-WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[14]
-WARNING: [Synth 8-3331] design MIO_BUS has unconnected port addr_bus[13]
-WARNING: [Synth 8-3331] design MIO_BUS has unconnected port counter_out[31]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 456.773 ; gain = 164.082
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 463.000 ; gain = 170.137
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -337,10 +443,10 @@ INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instan
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 456.773 ; gain = 164.082
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 463.000 ; gain = 170.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 456.773 ; gain = 164.082
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 463.000 ; gain = 170.137
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -351,10 +457,10 @@ Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/Complex
 Finished Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/RAM_B/RAM_B/RAM_B_in_context.xdc] for cell 'U4_RAM_B'
 Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/VGARAM/VGARAM/VGARAM_in_context.xdc] for cell 'U11_VGARAM'
 Finished Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/VGARAM/VGARAM/VGARAM_in_context.xdc] for cell 'U11_VGARAM'
-Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'audio_controller_inst/PWM'
-Finished Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'audio_controller_inst/PWM'
-Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/ROM_D/ROM_D/ROM_D_in_context.xdc] for cell 'U2_ROM_D'
-Finished Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-39828-mowang-001/ROM_D/ROM_D/ROM_D_in_context.xdc] for cell 'U2_ROM_D'
+Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'audio_ctrl/PWM'
+Finished Parsing XDC File [d:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'audio_ctrl/PWM'
+Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/ROM_D/ROM_D/ROM_D_in_context.xdc] for cell 'U2_ROM_D'
+Finished Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/.Xil/Vivado-25972-mowang-001/ROM_D/ROM_D/ROM_D_in_context.xdc] for cell 'U2_ROM_D'
 Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/icf.xdc]
 WARNING: [Vivado 12-507] No nets matched 'sw_i_IBUF[15]'. [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/icf.xdc:5]
 Finished Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/icf.xdc]
@@ -363,34 +469,34 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/dont_touch.xdc]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 825.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 836.738 ; gain = 0.031
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 825.867 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 836.781 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 825.867 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 825.867 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 836.781 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 836.781 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 825.867 ; gain = 533.176
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 836.984 ; gain = 544.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 825.867 ; gain = 533.176
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 836.984 ; gain = 544.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for U4_RAM_B. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for U11_VGARAM. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for audio_controller_inst/PWM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for audio_ctrl/PWM. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for U2_ROM_D. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 825.867 ; gain = 533.176
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 836.984 ; gain = 544.121
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "rf_reg[31]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "rf_reg[30]" won't be mapped to RAM because it is too sparse
@@ -434,6 +540,8 @@ INFO: [Synth 8-5546] ROM "VSYNC" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "VActive" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "addr_counter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "sample_phase" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "delta_theta" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "phase_acc" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "latch_flag" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "VRAMS_array_reg[0]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "VRAMS_array_reg[1]" won't be mapped to RAM because it is too sparse
@@ -491,7 +599,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'data_read_reg' [D:/mowang/2
 WARNING: [Synth 8-327] inferring latch for variable 'data_write_to_dm_reg' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/dm_controller.v:52]
 WARNING: [Synth 8-327] inferring latch for variable 'Wea_reg' [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/dm_controller.v:53]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 825.867 ; gain = 533.176
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 836.984 ; gain = 544.121
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -510,7 +618,8 @@ Detailed RTL Component Info :
 	   2 Input     16 Bit       Adders := 1     
 	   2 Input     12 Bit       Adders := 1     
 	   2 Input     10 Bit       Adders := 3     
-	   2 Input      9 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
 	   2 Input      3 Bit       Adders := 1     
 	   2 Input      2 Bit       Adders := 1     
 +---XORs : 
@@ -519,16 +628,16 @@ Detailed RTL Component Info :
 +---Registers : 
 	              256 Bit    Registers := 4     
 	               33 Bit    Registers := 1     
-	               32 Bit    Registers := 34    
+	               32 Bit    Registers := 35    
 	               24 Bit    Registers := 1     
 	               16 Bit    Registers := 49    
 	               12 Bit    Registers := 1     
 	               10 Bit    Registers := 2     
-	                8 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
 	                4 Bit    Registers := 3     
 	                3 Bit    Registers := 1     
 	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 12    
+	                1 Bit    Registers := 13    
 +---Muxes : 
 	   2 Input    256 Bit        Muxes := 4     
 	   5 Input     33 Bit        Muxes := 1     
@@ -542,6 +651,7 @@ Detailed RTL Component Info :
 	   2 Input     19 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 5     
 	   5 Input     16 Bit        Muxes := 2     
+	   6 Input     15 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 3     
 	   8 Input     12 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 1     
@@ -549,11 +659,12 @@ Detailed RTL Component Info :
 	   2 Input      9 Bit        Muxes := 2     
 	   5 Input      9 Bit        Muxes := 2     
 	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
 	  19 Input      4 Bit        Muxes := 1     
 	   8 Input      4 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 3     
 	   2 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 105   
+	   2 Input      1 Bit        Muxes := 106   
 	   5 Input      1 Bit        Muxes := 11    
 	  19 Input      1 Bit        Muxes := 1     
 	   4 Input      1 Bit        Muxes := 10    
@@ -571,6 +682,7 @@ Module Top
 Detailed RTL Component Info : 
 +---Muxes : 
 	   2 Input     19 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
 Module GRE_array 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -701,10 +813,22 @@ Detailed RTL Component Info :
 	   4 Input      8 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 3     
+Module tone_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     15 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 Module pwm_audio_100m 
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
 +---Registers : 
 	               16 Bit    Registers := 1     
 	                8 Bit    Registers := 1     
@@ -748,6 +872,7 @@ INFO: [Synth 8-5546] ROM "VScans/HSYNC" won't be mapped to RAM because it is too
 INFO: [Synth 8-5546] ROM "VScans/VSYNC" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "addr_counter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "sample_phase" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "delta_theta" is below threshold of ROM address width. It will be mapped to LUTs
 INFO: [Synth 8-5546] ROM "latch_flag" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "VRAMS_array_reg[0]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "VRAMS_array_reg[1]" won't be mapped to RAM because it is too sparse
@@ -756,6 +881,15 @@ INFO: [Synth 8-5546] ROM "VRAMS_array_reg[3]" won't be mapped to RAM because it 
 INFO: [Synth 8-5546] ROM "VRAMS_array_reg[4]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "VRAMS_array_reg[5]" won't be mapped to RAM because it is too sparse
 INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tone_gen/i_0/\phase_acc_reg[0] )
+INFO: [Synth 8-3886] merging instance 'tone_gen/tone_data_reg[0]' (FDCE) to 'tone_gen/tone_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'tone_gen/tone_data_reg[1]' (FDCE) to 'tone_gen/tone_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'tone_gen/tone_data_reg[2]' (FDCE) to 'tone_gen/tone_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'tone_gen/tone_data_reg[3]' (FDCE) to 'tone_gen/tone_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'tone_gen/tone_data_reg[4]' (FDCE) to 'tone_gen/tone_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'tone_gen/tone_data_reg[5]' (FDCE) to 'tone_gen/tone_data_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (tone_gen/\tone_data_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tone_gen/\tone_data_reg[6] )
 INFO: [Synth 8-3886] merging instance 'U1_PCPU/ID_EX/out_reg[156]' (FDCE_1) to 'U1_PCPU/ID_EX/out_reg[159]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U1_PCPU/U_RF/\rf_reg[0][0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U1_PCPU/U_RF/\rf_reg[0][1] )
@@ -790,7 +924,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (U1_PCPU/U
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U1_PCPU/U_RF/\rf_reg[0][30] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U1_PCPU/U_RF/\rf_reg[0][31] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 825.867 ; gain = 533.176
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 836.984 ; gain = 544.121
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -802,13 +936,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 825.867 ; gain = 533.176
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 836.984 ; gain = 544.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 912.285 ; gain = 619.594
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -820,7 +954,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -843,41 +977,41 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[31]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[30]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[29]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[28]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[27]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[26]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[25]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[24]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[23]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[22]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[21]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[20]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[19]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[18]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[17]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[16]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[15]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[14]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[13]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[12]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[11]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[10]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[9]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[8]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[7]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[6]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[5]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[4]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[3]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[2]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[1]
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_controller_inst/PWM  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[31]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[30]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[29]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[28]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[27]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[26]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[25]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[24]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[23]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[22]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[21]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[20]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[19]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[18]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[17]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \audio_ctrl/PWM  has unconnected pin dina[0]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module U11_VGARAM has unconnected pin dina[0]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -890,7 +1024,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -902,25 +1036,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -952,15 +1086,15 @@ Report Cell Usage:
 |7     |blk_mem_gen_0      |     1|
 |8     |BUFG               |    11|
 |9     |CARRY4             |   102|
-|10    |LUT1               |    61|
-|11    |LUT2               |   147|
-|12    |LUT3               |   283|
-|13    |LUT4               |   204|
-|14    |LUT5               |   672|
-|15    |LUT6               |  1237|
-|16    |MUXF7              |   268|
-|17    |MUXF8              |   128|
-|18    |FDCE               |  1774|
+|10    |LUT1               |    57|
+|11    |LUT2               |   136|
+|12    |LUT3               |   289|
+|13    |LUT4               |   205|
+|14    |LUT5               |   663|
+|15    |LUT6               |  1203|
+|16    |MUXF7              |   305|
+|17    |MUXF8              |   137|
+|18    |FDCE               |  1775|
 |19    |FDRE               |    42|
 |20    |LD                 |   160|
 |21    |LDC                |    36|
@@ -969,34 +1103,34 @@ Report Cell Usage:
 +------+-------------------+------+
 
 Report Instance Areas: 
-+------+------------------------+-----------------+------+
-|      |Instance                |Module           |Cells |
-+------+------------------------+-----------------+------+
-|1     |top                     |                 |  5419|
-|2     |  U12_VGAIO             |VGAIO            |   225|
-|3     |    VScans              |VGA_Scan         |   206|
-|4     |  U1_PCPU               |PCPU             |  4209|
-|5     |    EX_MEM              |GRE_array        |   638|
-|6     |    ID_EX               |GRE_array_0      |  1144|
-|7     |    IF_ID               |GRE_array_1      |   145|
-|8     |    MEM_WB              |GRE_array_2      |   184|
-|9     |    U_EXT               |EXT              |     1|
-|10    |    U_PC                |PC               |    41|
-|11    |    U_RF                |RF               |  1889|
-|12    |    U_alu               |alu              |    39|
-|13    |  U3_dm_controller      |dm_controller    |    68|
-|14    |  U8_clk_div            |clk_div          |    43|
-|15    |  U9_Counter_x          |Counter_x        |   181|
-|16    |  VRAMS_Controller      |VRAMS_Controller |   223|
-|17    |  audio_controller_inst |audio_controller |   118|
-|18    |  pwm_audio_100m_inst   |pwm_audio_100m   |    68|
-+------+------------------------+-----------------+------+
++------+-------------------+-----------------+------+
+|      |Instance           |Module           |Cells |
++------+-------------------+-----------------+------+
+|1     |top                |                 |  5415|
+|2     |  U12_VGAIO        |VGAIO            |   225|
+|3     |    VScans         |VGA_Scan         |   206|
+|4     |  U1_PCPU          |PCPU             |  4231|
+|5     |    EX_MEM         |GRE_array        |   629|
+|6     |    ID_EX          |GRE_array_0      |  1175|
+|7     |    IF_ID          |GRE_array_1      |   145|
+|8     |    MEM_WB         |GRE_array_2      |   184|
+|9     |    U_EXT          |EXT              |     1|
+|10    |    U_PC           |PC               |    41|
+|11    |    U_RF           |RF               |  1889|
+|12    |    U_alu          |alu              |    39|
+|13    |  U3_dm_controller |dm_controller    |    68|
+|14    |  U8_clk_div       |clk_div          |    43|
+|15    |  U9_Counter_x     |Counter_x        |   150|
+|16    |  VRAMS_Controller |VRAMS_Controller |   233|
+|17    |  audio_ctrl       |audio_controller |   113|
+|18    |  pwm_output       |pwm_audio_100m   |    68|
++------+-------------------+-----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 914.496 ; gain = 621.633
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 33 critical warnings and 158 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 913.340 ; gain = 251.555
-Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 913.340 ; gain = 620.648
+Synthesis finished with 0 errors, 33 critical warnings and 164 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 914.496 ; gain = 247.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 914.496 ; gain = 621.633
 INFO: [Project 1-571] Translating synthesized netlist
 Parsing EDIF File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/edf_file_new/Multi_8CH32.edf]
 Finished Parsing EDIF File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/edf_file_new/Multi_8CH32.edf]
@@ -1004,7 +1138,7 @@ Parsing EDIF File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPi
 Finished Parsing EDIF File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/edf_file_new/SSeg7.edf]
 Parsing EDIF File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/edf_file_new/SPIO.edf]
 Finished Parsing EDIF File [D:/mowang/2025_1/ComplexApplication/ComplexApplication/FullPipelineCPU.srcs/sources_1/edf_file_new/SPIO.edf]
-INFO: [Netlist 29-17] Analyzing 742 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 788 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2018.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -1311,19 +1445,19 @@ Resolution: The tool has removed redundant OBUF. To resolve this warning, check 
 WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. U7_SPIO/counter_set_OBUF[0]_inst 
 Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 920.910 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 924.004 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 196 instances were transformed.
   LD => LDCE: 160 instances
   LDC => LDCE: 36 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-213 Infos, 387 Warnings, 33 Critical Warnings and 0 Errors encountered.
+228 Infos, 477 Warnings, 34 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 920.910 ; gain = 639.746
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 920.910 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 924.004 ; gain = 642.645
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 924.004 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/mowang/2025_1/ComplexApplication/ComplexApplication/ComplexApplication.runs/synth_1/Top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May 23 01:42:34 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri May 23 14:17:03 2025...
